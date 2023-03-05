@@ -1,10 +1,9 @@
 +++
 title = "Contact"
-description = "Hugo, the world's fastest framework for building websites"
+description = "This is for contact details"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "lee.so"
+author = "Islam"
 +++
 
-- [github.com/nanxiaobei](https://github.com/nanxiaobei)
-- [lee.so](https://lee.so)
+This is a place holder page acts as a contact page for the audiance trying to reach yours truly.
