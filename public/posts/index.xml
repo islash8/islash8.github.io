@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Islash8</title>
+    <link>https://example.com/posts/</link>
+    <description>Recent content in Posts on Islash8</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Mar 2023 21:04:07 +0100</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CreatingBlog</title>
+      <link>https://example.com/posts/creatingblog/</link>
+      <pubDate>Sun, 05 Mar 2023 21:47:01 +0100</pubDate>
+      
+      <guid>https://example.com/posts/creatingblog/</guid>
+      <description>This is a tutorial about how this thing is done maybe it would be useful for someone.</description>
+    </item>
+    
+    <item>
+      <title>Hello ... AGAIN</title>
+      <link>https://example.com/posts/new_post/</link>
+      <pubDate>Sun, 05 Mar 2023 20:53:26 +0100</pubDate>
+      
+      <guid>https://example.com/posts/new_post/</guid>
+      <description>Greetings, internet! This is my third attempt at writing my &amp;ldquo;first&amp;rdquo; blog post, and hopefully it&amp;rsquo;ll stick this time. Life has thrown me some curveballs over the past few years, from graduating college to dealing with a breakup and moving away for a 9-month study program that wasn&amp;rsquo;t quite what I hoped for. Then I landed a job at a major automotive company that paid well, but left me feeling unsatisfied and unchallenged.</description>
+    </item>
+    
+  </channel>
+</rss>
