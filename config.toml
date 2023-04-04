@@ -1,7 +1,7 @@
 baseURL = 'https://example.com/'
 languageCode = 'en-us'
 title = 'Islash8'
-theme = 'paper'
+theme = 'pyper'
 
 # disqusShortname = 'Islash'   # use disqus comments
 
