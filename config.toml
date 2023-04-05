@@ -10,7 +10,7 @@ theme = 'pyper'
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  #twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
+  #twitter = 'islash8_'               # twitter.com/YOUR_TWITTER_ID
   github = 'islash8'                        # github.com/YOUR_GITHUB_ID
   #instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
   #mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
