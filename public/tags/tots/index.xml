@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tots on Islash8</title>
+    <link>http://localhost:1313/tags/tots/</link>
+    <description>Recent content in Tots on Islash8</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Islash8</copyright>
+    <lastBuildDate>Sun, 05 Mar 2023 21:47:01 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The creation of a blog!</title>
+      <link>http://localhost:1313/posts/creatingblog/</link>
+      <pubDate>Sun, 05 Mar 2023 21:47:01 +0100</pubDate>
+      <guid>http://localhost:1313/posts/creatingblog/</guid>
+      <description>This is a tutorial about how this thing is done maybe it would be useful for someone.&#xA;Quick Introduction&#xA;Hugo is a fast and flexible static site generator, perfect for building blogs and websites. When paired with GitHub Pages, it becomes even more powerful, enabling easy version control and free hosting. In this guide, we will walk through the process of creating a blog using Hugo and deploying it on GitHub Pages.</description>
+    </item>
+  </channel>
+</rss>

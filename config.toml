@@ -1,52 +1,57 @@
-baseURL = 'https://example.com/'
-languageCode = 'en-us'
-title = 'Islash8'
-theme = 'pyper'
+baseURL = "https://islash8.github.io/"
+languageCode = "en-us"
+title = "Islash8"
+theme = "archie-master"
+copyright = "© Islash8"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-# disqusShortname = 'Islash'   # use disqus comments
+disqusShortname = "yourDisqusShortname"  # Set your Disqus shortname if you want to use Disqus comments
+
+paginate = 5 # articles per page
 
 [params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
+	mode = "toggle"  # color-mode → light, dark, toggle, or auto
+	useCDN = false  # don't use CDNs for fonts and icons, instead serve them locally
+	# subtitle = "A personal blog about technology, career, books, and life."
+	mathjax = true  # enable MathJax support
+	katex = true  # enable KaTeX support
 
-  # header social icons
-  #twitter = 'islash8_'               # twitter.com/YOUR_TWITTER_ID
-  github = 'islash8'                        # github.com/YOUR_GITHUB_ID
-  #instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
-  #mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
+# Social Tags
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/islash8"
 
-  # home page profile
-  # avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
-  # name = 'Islam'
-  # bio = 'SW engineer'
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/islash8_"
 
-  # misc
-  disableHLJS = true                        # disable highlight.js
-  monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/islash8/"
 
-# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+# Main menu Items
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-[menu]
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
-    weight = 10
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
-[taxonomies]
-    category = "categories"
-    tag = "tags"
-    series = "series"
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

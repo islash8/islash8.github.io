@@ -1,271 +1,215 @@
+<!-- This website has been built with 💖 and 🍕 on 🌍 using Salinger Theme for Hugo framework. The theme has been released with MIT licence and can be found at https://github.com/jacksalici/salinger-theme. -->
 <!DOCTYPE html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<html
-  class="not-ready text-sm lg:text-base"
-  style="--bg: #faf6f1"
-  lang="en-us"
->
-  <head>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <meta name="keywords" content=""/>
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="" />
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta http-equiv="Content-Security-Policy" content="default-src *;
+   img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   style-src  'self' 'unsafe-inline' *">
+   
+  
+  <link rel="shortcut icon" href="http://localhost:1313/logo.svg" />
+  
+
+  
+  
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
   />
 
-  
-  <title>404 Page not found - Islash8</title>
-
-  
-  <meta name="theme-color" />
-
-  
-  
-  
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
-  <meta name="author" content="Islash8" />
-  
-
-  
-  
-  
-  
-  
-  
-  <link rel="preload stylesheet" as="style" href="https://example.com/main.min.css" />
-
-  
-
-  
      
-  <link rel="preload" as="image" href="https://example.com/theme.png" />
+  <link href="/css/styles.css" rel="stylesheet" />
 
   
-  
-  
-  
-
-  
-  <link rel="preload" as="image" href="https://example.com/github.svg" />
-  
-  <link rel="preload" as="image" href="https://example.com/rss.svg" />
-  
-
-  
-  <link rel="icon" href="https://example.com/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://example.com/apple-touch-icon.png" />
-
-  
-  <meta name="generator" content="Hugo 0.111.1">
+  <link
+    rel="preload"
+    as="style"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    onload="this.onload=null;this.rel='stylesheet'"
+  />
 
   
   
 
   
-  
-  
-  
-  
-  
-  
-  <meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://example.com/404.html" />
 
   
-  <meta itemprop="name" content="404 Page not found">
-<meta itemprop="description" content="">
-  
-  <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content=""/>
+
+  <scripts defer
+    src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"
+  ></script>
 
   
-  
-</head>
+  <title>
+    404 Page not found ~
+    Islash8
+  </title>
 
-  <body class="text-black duration-200 ease-out dark:text-white">
-    <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center">
-  <div class="relative z-50 mr-auto flex items-center">
-    <a
-      class="-translate-x-[1px] -translate-y-0.5 text-3xl font-bold"
-      href="https://example.com/"
-      >Islash8</a
-    >
-    <div
-      class="btn-dark text-[0] ml-6 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
-      role="button"
-      aria-label="Dark"
-    ></div>
-  </div>
-
-  <div
-    class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-    role="button"
-    aria-label="Menu"
-  ></div>
-
-  
   <script>
-    
-    const htmlClass = document.documentElement.classList;
-    setTimeout(() => {
-      htmlClass.remove('not-ready');
-    }, 10);
+  changeTheme()
 
-    
-    const btnMenu = document.querySelector('.btn-menu');
-    btnMenu.addEventListener('click', () => {
-      htmlClass.toggle('open');
-    });
+  function changeTheme(){
+    if (localStorage.theme === 'dim' || ((localStorage.theme === 'auto' || !('theme' in localStorage)) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+  }
 
-    
-    const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = `"#faf6f1"`.replace(/"/g, '');
-    const setDark = (isDark) => {
-      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
-      htmlClass[isDark ? 'add' : 'remove']('dark');
-      localStorage.setItem('dark', isDark);
-    };
-
-    
-    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    if (htmlClass.contains('dark')) {
-      setDark(true);
-    } else {
-      const darkVal = localStorage.getItem('dark');
-      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
-    }
-
-    
-    darkScheme.addEventListener('change', (event) => {
-      setDark(event.matches);
-    });
-
-    
-    const btnDark = document.querySelector('.btn-dark');
-    btnDark.addEventListener('click', () => {
-      setDark(localStorage.getItem('dark') !== 'true');
-    });
   </script>
+</head>
+<body class="flex flex-col h-screen justify-between" tabindex="0">
 
-  <div
-    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
-  >
-    
-    
-    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+<div class="navbar bg-transparent backdrop-filter backdrop-blur-sm z-10 fixed top-0">
+  <div class="flex-1">
+    <a href="/"class="text-lg font-bold flex" aria-label="Logo Link to the home">
+    Islash8
       
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/about/"
-        >About</a
-      >
-      
-      <a
-        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
-        href="/contact/"
-        >Contact</a
-      >
-      
-    </nav>
-    
-
-    
-    <nav
-      class="mt-12 flex justify-center space-x-10 dark:invert lg:mt-0 lg:ml-12 lg:items-center lg:space-x-6"
-    >
-      
-      <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./github.svg)"
-        href="https://github.com/islash8"
-        target="_blank"
-        rel="me"
-      >
-        github
-      </a>
-      
-      <a
-        class="h-8 w-8 text-[0] [background:var(--url)_center_center/cover_no-repeat] lg:h-6 lg:w-6"
-        style="--url: url(./rss.svg)"
-        href="https://example.com/index.xml"
-        target="_blank"
-        rel="alternate"
-      >
-        rss
-      </a>
-      
-    </nav>
-    
+    </a>
   </div>
-</header>
+  <div class="flex-none">
+  
+    
 
-
-    <main
-      class="prose prose-neutral relative mx-auto min-h-[calc(100%-10rem)] max-w-3xl px-8 pt-16 pb-24 dark:prose-invert"
-    >
-      
-<h1
-  class="absolute inset-x-8 top-0 bottom-20 flex items-center justify-center text-9xl"
->
-  404
-</h1>
-
-    </main>
-
-    <footer
-  class="opaco mx-auto flex h-[5rem] max-w-3xl items-center px-8 text-[0.9em] opacity-50"
->
-  <div class="mr-auto">
-    &copy; 2023
-    <a class="link" href="https://example.com/">Islash8</a>
+  
+    <div class="dropdown dropdown-end dropdown-hover">
+      <label tabindex="0" class="btn btn-ghost btn-circle">
+        
+        
+        <svg class="icon w-7 h-7" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M150-240q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150-300h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810-240H150Zm0-210q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150-510h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810-450H150Zm0-210q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T150-720h660q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T810-660H150Z"/></svg>
+        
+        
+      </label>
+      <ul tabindex="0" class="dropdown-content menu menu-sm z-[1] p-2 shadow-lg bg-base-100 rounded-lg w-40">
+          
+          <li><a href="/about/">About</a></li>
+          
+          <li><a href="/contact/">Contact</a></li>
+        
+      </ul>
+    </div>
   </div>
-  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
-    >Powered by Hugo️️</a
-  >️
-  <a
-    class="link"
-    href="https://github.com/nanxiaobei/hugo-paper"
-    rel="noopener"
-    target="_blank"
-    >Theme Paper</a
-  >
-</footer>
+</div>
 
-  </body>
+<script>
+  
+</script>
+<div class="mb-auto">
+  
+<div class=" bg-base-200  mb-7  place-items-start">
+    <div class="feed w-full py-24">
+      <div class="  space-y-3 ">
+        
+        
+
+        <h1 class="  text-4xl  font-bold font-serif">
+             404 Error 
+        </h1>
+        
+        <p class="font-mono balanced  text-lg    uppercase">Ops, that's awkward...</p>
+        
+        
+
+        
+        <div class="text-xs pt-2">
+  
+  
+  
+
+  <br/>
+
+  
+
+
+  
+</div>
+
+        
+        
+        
+
+      </div>
+    </div>
+</div>
+
+
+
+   
+<div class="prose feed">
+  Looks like you're lost, go back to the <a href='/'>home</a>.
+
+</div>   
+
+
+    </div>
+
+
+<footer class="mt-20 p-2 bg-base-200 text-base-content">
+     <div class="max-w-2xl justify-between m-auto flex text-xs space-y-1">
+        
+          <div class="flex-1 my-auto">
+            <p class="block my-2">
+               
+               
+               
+               
+                  
+               &copy; 2024 - Islash8   
+           </p>
+           
+           <p class="block mb-2">
+                 
+                Made with <svg class="icon w-4 h-4" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M645.889-470q-6.689 0-12.9-2T622-479q-87-78-148.5-148.757T412-760q0-51.758 35.22-86.879Q482.439-882 534.341-882 564-882 593.5-865.5T646-821q23-28 52.5-44.5t59.159-16.5q51.902 0 87.122 35.121Q880-811.758 880-760q0 61.486-61.5 132.243T670.055-479q-5.055 5-11.266 7t-12.9 2Zm.111-71q66-60 120-119t54-100q0-27.423-17.356-44.712Q785.288-822 757.758-822 741-822 724.5-814q-16.5 8-33.5 30l-45 55-45-55q-17-22-33.5-30t-33.258-8q-27.53 0-44.886 17.288Q472-787.423 472-760q0 41 54 100t120 119Zm-84 417 248-78q-6-8-15.194-20.5Q785.613-235 774-235H536q-2 0-18-1.5t-31-8.5l-66-20q-12-4-18-16t-2-24q4-12 15.278-18T440-324l93 31q-2 0 14.5-1t47.333-1H604q0-12.419-4.5-23.71Q595-330 584-335l-245-93h-84v214l307 90Zm-13 57-294-84q-2 27-22.5 42T195-94h-95q-24.75 0-42.375-17.625T40-154v-274q0-24.75 17.625-42.375T100-488h238q5.333 0 10.667 1Q354-486 359-484l245 92q27 10 45.5 32.5T668-295h114q42 0 70 30t28 81q0 11-5 19.5T859-152L583-67q-8.171 2-17.086 2Q557-65 549-67Zm97-615ZM100-154h94v-274h-94v274Z"/></svg> and <a class="link" href="https://github.com/jacksalici/salinger-theme">Salinger Theme</a>.
+                
+           </p>
+
+          </div>
+
+          
+
+
+           
+           
+     </div>
+ 
+   
+  </footer>
+
+
+
+
+
+
+</body>
+
+    <script>
+
+      
+
+      try {
+          twemoji.parse(document.body, {
+            folder: "svg",
+            ext: ".svg",
+          });
+      } catch(e) {
+        if (e instanceof ReferenceError) {
+            console.log("Tweemoji not initialized")
+            console.log(e)
+        }
+      }
+    </script>
 </html>
