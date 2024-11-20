@@ -8,7 +8,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourDisqusShortname"  # Set your Disqus shortname if you want to use Disqus comments
+# disqusShortname = "yourDisqusShortname"  # Set your Disqus shortname if you want to use Disqus comments
 
 paginate = 5 # articles per page
 

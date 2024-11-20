@@ -5,12 +5,16 @@ draft: false
 tags: ["random"]
 ---
 
-Greetings, internet! This is my third attempt at writing my "first" blog post, and hopefully it'll stick this time. Life has thrown me some curveballs over the past few years, from graduating college to dealing with a breakup and moving away for a 9-month study program that wasn't quite what I hoped for. Then I landed a job at a major automotive company that paid well, but left me feeling unsatisfied and unchallenged.
+**Greetings, Internet!**
 
-Things only got worse when Covid hit, I got into a new relationship (which what balanced the bad side of daily life), and I started looking for a new home while still stuck in a dead-end job with terrible colleagues. I was lost, depressed, and struggling to find my way back to balance. I tried therapy, but it only helped while I was in the session. Everything felt like a mess, and I didn't have the time or energy to maintain a blog.
+This is my third attempt at writing my *first* blog post, and hopefully, this time, I can maintain it!
 
-Eventually, I left my old job and found a new one in Europe that paid better and had better people, but still wasn't quite what I was looking for. I got married, got my finances in order, and started trying to improve my life one step at a time. I'm not as technically proficient as I used to be, but I'm slowly getting back into the swing of things.
+Life has been quite busy over the past few years. A lot has happened—exciting if you're someone who loves action and unpredictability! However, for me, it has been nothing short of a rollercoaster.
 
-So why start a blog now? I've tried social media and failed miserably, maybe because of anxiety or maybe because I'm just not that relatable. But I want to share my thoughts with the world, even if it's just a tiny corner of the internet. Writing my own posts on my own blog feels like a good compromise between anonymity and exposure.
+I've been experimenting with Hugo and blogs for almost five years now, but I still don't feel like I've truly mastered it. Every time I set everything up, I tend to leave it as is and move on.
 
-I'll be writing about all sorts of things, both technical and non-technical, that I encounter in my daily life. Hopefully someone out there will find it interesting. And as always, I like to say: Alles gut.
+So, why start a blog now?
+I've tried social media, but I failed miserably. I'm not entirely sure why, but I think it's simply not for me. I wanted a space to share my thoughts with the world, even if it's just a tiny corner in the vast World Wide Web. Honestly, I don't care if this gains traction or not. Writing my own posts on my own blog feels like the perfect middle ground between anonymity and exposure.
+
+As for what I'll be writing about—I'm not sure yet. I'll probably just talk about random things and toss them into the void out there. Who knows where this journey will lead?
+
